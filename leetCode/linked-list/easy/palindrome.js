@@ -24,7 +24,7 @@ const getMidNode = head => {
         console.log('head2:', head2);
         return head2;
     } catch(ex){
-        console.log('ex:', ex)
+        console.log('ex:', ex);
         throw ex;
     }
 };
@@ -41,7 +41,7 @@ const reverseHead = head => {
         console.log('reversedNode :', reversedNode);
         return reversedNode;
     }catch(ex){
-        console.log('ex:', ex)
+        console.log('ex:', ex);
         throw ex;
     }
 };
